@@ -17,6 +17,18 @@ header {
     position: relative;
     bottom: 140px;
 }
+.header {
+    position: relative; /* Убедитесь, что header имеет позиционирование */
+}
+
+.header a {
+    pointer-events: auto; /* Включить кликабельность для ссылок */
+}
+
+.header .empty-space {
+    pointer-events: none; /* Отключить кликабельность для пустого пространства */
+}
+
 .text{
     color: rgb(255, 255, 255);
     position: relative;
